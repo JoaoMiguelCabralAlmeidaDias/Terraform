@@ -1,6 +1,6 @@
 resource "aws_key_pair" "CyberSecurity" {
-  key_name   = "Redes"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCxcTKfPLiFwL5s6VnnEgIM1qwfCTc++Rh7f2uNjtY4nPYIqzT4Gu8uAwP1JnezPVBqdM2/XJpaVvYXCDywf9l2nHX74eKyjU/nGBKxffYcLYgxdaQN9qhtmDFu8+ajy1HZ1gUe7ITBe9X0eDaKyjUofWLYhEZA5Z3IrqfnglHWbttZ/dWTZxKDbG3PYeebnpqbwgfNObfP6raDpFnXxeChBaTW+Y7yIRYHMnEsTkvvTFRkCxHlA/1NT9sTgBSOU2lfaVfi6S7pIUyFVsGe5b7RQ9FpyW70bFaNfa++mS2HXtd3prDNVB1lEDSI6r52g5/6e1Cn+OT65ruFOnMfxe+z"
+  key_name   = "Cyber"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC40AnVrPAHzOKHFVziBnEiELWfpsnPKJXV5isn1L7tlst/N2k44f+EdXdsOYWv2AxcMD8zjPifou4unbuQuamLF7ByfJb0YuOYFZwqmf95BWUpKe2u5BHbguopx4snRUXGPy1pgPwr9wHBBE+EOIuG6Gs6+nX4WnZnR+3UrZ4yldoED0yE2wS27bd40EtBOcpX2D1jZnJQUW4C0EzxoAsw6B9uAYRaOELVNsA70hmWhZl5E6IbOWgefTqlGPJNCWF/UGgXQ8P75JuHPd7hPjjHgPKQZYfJz/RYiiBcSapJTQ76cDwIXFFl+MMveH+PWwY09lOXlzagOidug9tUWWFB"
 }
 
 resource "aws_vpc" "CyberSecurity" {

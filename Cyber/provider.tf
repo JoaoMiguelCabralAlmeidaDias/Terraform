@@ -19,7 +19,7 @@ provider "aws" {
   #secret_key = "xxxx"
   #token = "xxxx"
 
-  profile = "default"
+  profile = "vocareum"
 }
 
 module "efs" {
